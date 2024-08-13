@@ -1,0 +1,27 @@
+/* Estilos para los elementos impares */
+.req {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/*Estilo para el segundo elemento*/
+#element2 {
+    color: blue;
+    font-size: 36px;
+}
+
+/* Estilo adicional para el tercer elemento */
+.big-font {
+    font-size: 24px;
+}
+
+#element4 {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
