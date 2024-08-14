@@ -1,23 +1,23 @@
 /* Estilo para imágenes con clases avatar y proportioned */
 .avatar.proportioned {
     width: 300px;
-    height: auto; /* Mantiene la proporción original */
+    height: auto;
 }
 
 /* Estilo para imágenes con clases avatar y distorted */
 .avatar.distorted {
     width: 200px;
-    height: 400px; /* Altura es el doble del ancho */
+    height: 400px;
 }
 
 /* Estilo para imágenes con clases original y proportioned */
 .original.proportioned {
-    width: auto; /*
-    height: auto; /* Mantiene la proporción original */
+    width: auto;
+    height: auto;
 }
 
 /* Estilo para imágenes con clases original y distorted */
 .original.distorted {
-    width: auto; /*
-    height: auto; /* Altura es el doble del ancho */
+    width: auto;
+    height: auto; 
 }
