@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang ="es">
+
+<head>
+    <title>TA16</title>
+    <style>
+
+        /* Estilo por defecto para pantallas grandes (1440px y superiores) */
+        body{
+            background-color: red; 
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img {
+            width: 50%;
+            height: auto;
+            display: block;
+            align-self: center;
+      }
+
+      h1 {
+        color: white;
+        margin-bottom: 20px;
+        align-items: center;
+      }
+
+      p {
+        font-size: 24px;
+        color: white;
+        text-align: center;
+        align-items: center;
+        max-width: 800px;
+        margin-top: 20px;
+      }
+
+      /* Pantallas medianas (768px a 1439px) */
+      @media (max-width: 1439px) and (min-width: 768px) {
+        body {
+          background-color: green;
+        }
+
+        img {
+          width: 70%;
+        }
+
+        p {
+          font-size: 18px; 
+        }
+      }
+
+      /* Pantallas pequeñas (425px y menores) */
+      @media (max-width: 767px) {
+        body {
+          background-color: blue;
+        }
+
+        img {
+          width: 100%;
+        }
+
+        p {
+          font-size: 14px;
+        }
+      }
+
+    </style>
+</head>
+
+<body>
+    <header class="header">
+    <h1>Inteligencia Artificial</h1>
+    </header>
+
+    <div>
+        <img class="avatar proportioned" src="img1.jpg" alt="">
+    </div>
+
+
+    <p>La inteligencia artificial (IA) es una rama de la informática que se 
+        centra en la creación de sistemas capaces de realizar tareas que 
+        normalmente requieren inteligencia humana. Estas tareas incluyen 
+        el reconocimiento de voz, la toma de decisiones, la resolución de 
+        problemas, la comprensión del lenguaje natural y el aprendizaje a 
+        partir de datos. Existen diferentes enfoques en IA, como el aprendizaje 
+        automático (machine learning), donde los sistemas mejoran su rendimiento
+         a medida que procesan más datos, y el aprendizaje profundo (deep 
+         learning), que utiliza redes neuronales para realizar análisis más 
+         complejos. La IA se aplica en diversas áreas, desde la medicina hasta 
+         la industria y la atención al cliente.</p>
+</body>
+</html>
