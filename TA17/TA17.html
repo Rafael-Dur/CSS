@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Perfil</title>
+    <style>
+        /* Estilos para el cuerpo de la página */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Estilos para la tarjeta de perfil */
+        .card {
+            position: relative;
+            width: 300px;
+            padding: 20px;
+            background-color: lightblue;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Posicionamiento del avatar en la esquina superior izquierda */
+        .avatar {
+            position: absolute;
+            top: -50px; 
+            left: 50px; 
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Estilos para el nombre */
+        h2 {
+            margin-top: 60px;
+            font-size: 24px;
+            color: solid black;
+        }
+
+        /* Estilos para la descripción */
+        p {
+            font-size: 16px;
+            color: rgb(16, 16, 16);
+            margin: 20px 0;
+        }
+
+        /* Estilos para el botón */
+        button {
+            padding: 10px 20px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #063b18;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img class="avatar" src="Profile Icon.jpeg" alt="Avatar">
+        <h2>Rafael Durán</h2>
+        <p>Aprendiz de desarrollador web, apasionado por crear soluciones 
+            innovadoras con las últimas tecnologías.</p>
+        <button>Seguir</button>
+    </div>
+
+</body>
+</html>
